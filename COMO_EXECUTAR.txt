@@ -33,3 +33,7 @@ techbairro.py   - a janela (execute este)
 cliente.py      - a classe Cliente
 banco.py        - o acesso ao banco SQLite
 validacao.py    - as regras de negócio do cadastro
+
+Histórico do código
+O projeto usa Git. Para ver o histórico, rode na pasta do projeto:
+git log --oneline
