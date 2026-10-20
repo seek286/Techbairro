@@ -1,0 +1,13 @@
+# Banco de dados com os dados pessoais dos clientes
+techbairro.db
+*.db
+
+# Pasta gerada pelo Python
+__pycache__/
+
+# Arquivos compilados do Python
+*.pyc
+
+# Pacotes zip gerados pelo projeto
+dist/
+*.zip
