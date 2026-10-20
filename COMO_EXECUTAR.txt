@@ -1,0 +1,35 @@
+TechBairro 3.3.1
+
+Requisitos
+
+Python 3 (testado com Python 3.12)
+
+Nenhuma biblioteca extra: usa apenas tkinter, sqlite3 e os, que já vêm com o Python
+
+No Linux pode ser preciso instalar o Tkinter: sudo apt install python3-tk
+
+Como executar
+
+Extraia o arquivo TechBairro-3.3.1.zip
+
+Abra um terminal dentro da pasta TechBairro-3.3.1
+
+Execute: python techbairro.py
+
+Dados
+
+Na primeira execução, o arquivo techbairro.db é criado vazio na mesma pasta.
+
+Faça cópias desse arquivo para não perder os clientes cadastrados.
+
+Testes das regras de negócio
+
+Execute: python testar_validacao.py
+(não abre a janela e não usa o banco)
+
+Arquivos do programa
+
+techbairro.py   - a janela (execute este)
+cliente.py      - a classe Cliente
+banco.py        - o acesso ao banco SQLite
+validacao.py    - as regras de negócio do cadastro
