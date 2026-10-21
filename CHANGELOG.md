@@ -57,3 +57,9 @@
 ### Alterado
 - Troquei a lista em memória pelo banco SQLite `techbairro.db`, fazendo os clientes continuarem salvos mesmo depois de fechar o programa.
 - Alter
+
+## v3.3.1 (Aula 25)
+
+## Em desenvolvimento
+### Adicionado
+- Código publicado no GitHub, com histórico de versões.
