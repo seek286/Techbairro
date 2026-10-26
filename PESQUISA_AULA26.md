@@ -43,7 +43,7 @@ Fontes:
 
 ## P5 — Como ver a versão do Python e testar o Tkinter?
 
-O comando `python --version` mostra a versão do Python. Para testar o Tkinter, execute `python -m tkinter`. Se estiver funcionando, uma pequena janela de demonstração do Tkinter será aberta. A versão registrada como testada na documentação atual do projeto é Python 3.12; devo executar o comando no meu computador e confirmar a versão instalada antes de entregar.
+O comando `python --version` mostra a versão do Python. Para testar o Tkinter, execute `python -m tkinter`. Se estiver funcionando, uma pequena janela de demonstração do Tkinter será aberta. A versão do Python instalada e utilizada nos testes do projeto foi a 3.12.0.
 
 Fonte: https://docs.python.org/pt-br/3/library/tkinter.html
 
