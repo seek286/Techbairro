@@ -1,0 +1,10 @@
+# TechBairro 3.3.1
+# Este projeto não possui dependências externas.
+# Não é necessário instalar pacotes de terceiros.
+#
+# Módulos da biblioteca padrão utilizados:
+# tkinter - criação da interface gráfica.
+# sqlite3 - armazenamento dos clientes em um banco SQLite.
+# os - montagem do caminho do arquivo do banco.
+# Os arquivos do próprio projeto também são importados:
+# cliente.py, banco.py e validacao.py.
