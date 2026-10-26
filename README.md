@@ -21,7 +21,7 @@ A TechBairro é um sistema de cadastro de clientes para a associação de morado
 | Bibliotecas externas | Nenhuma; o projeto usa módulos da biblioteca padrão |
 | Internet | Necessária para baixar o projeto; não é necessária para usar o sistema depois de instalado |
 
-> Antes de instalar, confira a versão disponível no computador com `python --version`. O projeto registra testes com Python 3.12; se a versão do computador for diferente, confirme a compatibilidade com o responsável pela instalação.
+Antes de instalar, confira a versão disponível no computador com `python --version`. O projeto registra testes com Python 3.12; se a versão do computador for diferente, confirme a compatibilidade com o responsável pela instalação.
 
 ## Instalação
 
@@ -129,5 +129,6 @@ O passo a passo está no [Manual de uso](docs/manual_de_uso.md).
 
 ## Autor
 
-Arthur de Souza Guedes  
+Arthur de Souza Guedes
+
 Técnico em Desenvolvimento de Sistemas — Senac DF
