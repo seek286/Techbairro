@@ -132,3 +132,5 @@ O passo a passo está no [Manual de uso](docs/manual_de_uso.md).
 Arthur de Souza Guedes
 
 Técnico em Desenvolvimento de Sistemas — Senac DF
+
+<!-- Teste de instalação documentado na Aula 26 -->
