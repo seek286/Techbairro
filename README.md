@@ -2,7 +2,7 @@
 
 A TechBairro é um sistema de cadastro de clientes para a associação de moradores. Ele permite cadastrar, consultar, alterar e excluir clientes por meio de uma janela simples.
 
-**Versão atual:** 3.3.1 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
+**Versão atual:** 3.3.2 · Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
 
 ## Funcionalidades
 

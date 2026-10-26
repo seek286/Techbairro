@@ -1,5 +1,15 @@
-
 # Changelog da TechBairro
+
+## v3.3.2 (Aula 27)
+
+### Adicionado
+- Registro dos testes manuais em `docs/registro_de_testes.md`.
+- Atualização da documentação para a entrega final da TechBairro.
+
+## v3.3.1 (Aula 25)
+
+### Adicionado
+- Código publicado no GitHub, com histórico de versões.
 
 ## v3.3.1 (Aula 21)
 
@@ -29,19 +39,19 @@
 ## v3.2.1 (Aula 18)
 
 ### Alterado
-- O número da versão passou a ficar em uma única constante no arquivo techbairro.py.
+- O número da versão passou a ficar em uma única constante no arquivo `techbairro.py`.
 
 ### Adicionado
-- Script scripts/gerar_pacote.py, que gera o pacote da versão para publicação.
-- Arquivo COMO_EXECUTAR.txt, com instruções para executar o sistema.
+- Script `scripts/gerar_pacote.py`, que gera o pacote da versão para publicação.
+- Arquivo `COMO_EXECUTAR.txt`, com instruções para executar o sistema.
 
 ## v3.2 (Aula 16)
 
 ### Alterado
-- Alterei o caminho do banco para ele abrir sempre na pasta do projeto, usando `os.path` e `file`, mesmo se o programa for executado de outro lugar.
+- Alterei o caminho do banco para ele abrir sempre na pasta do projeto, usando `os.path` e `__file__`, mesmo se o programa for executado de outro lugar.
 
 ### Adicionado
-- Adicionei a mensagem **"banco em uso"** no terminal, mostrando qual arquivo do banco está sendo utilizado.
+- Adicionei a mensagem "banco em uso" no terminal, mostrando qual arquivo do banco está sendo utilizado.
 
 ## v3.1 (Aula 15)
 
@@ -56,10 +66,3 @@
 
 ### Alterado
 - Troquei a lista em memória pelo banco SQLite `techbairro.db`, fazendo os clientes continuarem salvos mesmo depois de fechar o programa.
-- Alter
-
-## v3.3.1 (Aula 25)
-
-## Em desenvolvimento
-### Adicionado
-- Código publicado no GitHub, com histórico de versões.
