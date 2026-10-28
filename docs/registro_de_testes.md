@@ -12,7 +12,7 @@
 |---|---|---|---|---|
 | CT01 | RF01 | Cadastrar Bruno Lima com todos os campos preenchidos. | Cliente cadastrado com sucesso. | Passou |
 | CT02 | RF01 | Deixar Nome e Endereço vazios e tentar salvar. | O cadastro foi bloqueado e o sistema informou os campos obrigatórios. | Passou |
-| CT03 | RF02 | Informar o telefone `61 9999 0000`, com espaços. | O sistema bloqueou o telefone por conter espaços e exigir apenas números. | Passou |
+| CT03 | RF02 | Informar o telefone `61 9999 0000`, com espaços. |O sistema aceitou o telefone, permitindo espaços na formatação. | Passou |
 | CT04 | RF03 | Informar o e-mail `ana@email`, sem ponto. | O sistema bloqueou o cadastro com o e-mail inválido. | Passou |
 | CT05 | RF05 | Editar Bruno Lima e trocar o telefone para `61987654322`. | O telefone foi atualizado corretamente. | Passou |
 | CT06 | RF06 | Tentar excluir Bruno Lima, responder Não e depois repetir a exclusão respondendo Sim. | O cliente permaneceu cadastrado após Não e foi removido após Sim. | Passou |
