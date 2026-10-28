@@ -57,6 +57,14 @@ def teste_email_sem_usuario():
 
 
 # Roda todas as funções que começam com "teste_"
+
+# T7: telefone com espaços
+
+def teste_telefone_com_espacos():
+    cliente = cliente_valido()
+    cliente.telefone = "61 9999 0000"
+    assert validador.validar(cliente) is None
+
 if __name__ == "__main__":
     for nome, funcao in list(globals().items()):
         if nome.startswith("teste_"):

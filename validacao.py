@@ -38,9 +38,26 @@ class ValidadorCliente:
 
 
         # RF02: o telefone precisa ter somente números
-        if not cliente.telefone.isdigit():
+        # RF02: valida o telefone, permitindo espaços e formatação
+        telefone = cliente.telefone.strip()
+
+        # Remove os caracteres usados na formatação
+        telefone_limpo = (
+            telefone.replace(" ", "")
+            .replace("-", "")
+            .replace("(", "")
+            .replace(")", "")
+        )
+
+        # Verifica se restaram apenas números
+        if not telefone_limpo.isdigit():
 
             return "Telefone inválido: use somente números."
+
+        # Verifica se o telefone tem 10 ou 11 dígitos
+        if len(telefone_limpo) not in (10, 11):
+
+            return "Telefone inválido: informe DDD e número com 10 ou 11 dígitos."
 
 
         # RF03: o e-mail precisa estar no formato nome@dominio.com
